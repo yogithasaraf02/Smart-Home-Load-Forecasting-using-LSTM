@@ -2,7 +2,8 @@
 Smart Home Forecaster uses LSTM neural networks to predict electricity consumption in smart homes. Implemented on a Single Board Computer, it analyzes historical energy data to forecast future usage, enabling efficient energy management and cost savings through proactive resource allocation.
 
 Smart Home Forecaster is a machine learning project designed to predict electricity consumption in smart home environments. This system leverages Long Short-Term Memory (LSTM) neural networks to analyze historical energy consumption data and provides accurate load forecasting, enhancing energy management and optimizing resource usage within smart homes. The project is uniquely implemented on a Single Board Computer (SBC), making it suitable for real-time applications in resource-constrained environments.
-Table of Contents
+
+# Table of Contents
 
 Introduction
 Problem Statement and Objective
@@ -16,17 +17,17 @@ Installation and Usage
 Project Team
 References
 
-Introduction
+# Introduction
 Modern smart homes are increasingly challenged by the need for efficient energy management and sustainable electricity usage. Smart Home Forecaster introduces an advanced LSTM-driven platform to address these issues by predicting future energy consumption patterns. Utilizing sophisticated deep learning algorithms, it processes temporal data, including historical load patterns and potentially weather conditions, to forecast electricity usage for upcoming periods. This data-centric approach empowers smart home systems with actionable insights, enabling proactive energy management to reduce costs while promoting ecological sustainability.
-Problem Statement and Objective
+
+# Problem Statement and Objective
 Smart home systems often lack the predictive capabilities needed to optimize energy usage patterns efficiently. This project aims to tackle issues such as energy wastage, peak load management, and inefficient resource allocation by developing a system that:
+- Analyzes historical electricity consumption patterns.
+- Provides accurate forecasts based on time series data.
+- Enhances energy efficiency by anticipating future load requirements.
+- Implements the solution on resource-constrained SBCs for practical smart home applications.
 
-Analyzes historical electricity consumption patterns.
-Provides accurate forecasts based on time series data.
-Enhances energy efficiency by anticipating future load requirements.
-Implements the solution on resource-constrained SBCs for practical smart home applications.
-
-Algorithm Flow
+# Algorithm Flow
 Start
 |
 |--- Data Collection
