@@ -124,16 +124,16 @@ Required libraries: numpy, pandas, matplotlib, scikit-learn, tensorflow, keras
 
 # Steps
 
-Clone the repository:
-bashgit clone https://github.com/YOUR-USERNAME/smart-home-forecaster.git
+1. Clone the repository:
+bashgit clone https://github.com/yogithasaraf02/Smart-Home-Load-Forecasting-using-LSTM.git
 
-Navigate to the project directory:
-bashcd smart-home-forecaster
+2. Navigate to the project directory:
+bashcd Smart-Home-Load-Forecasting-using-LSTM
 
-Install dependencies:
+3. Install dependencies:
 bashpip install -r requirements.txt
 
-Run the project:
+4. Run the project:
 bashpython smart_home_load_forecasting.py
 
 
