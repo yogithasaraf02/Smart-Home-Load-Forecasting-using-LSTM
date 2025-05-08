@@ -1,0 +1,9 @@
+
+# ✅ Requirements: 
+    numpy 
+    pandas
+    matplotlib
+    tensorflow==2.12.0  # or adjust to match your working version
+
+  💡 If you are using keras separately from TensorFlow (older setups), add:
+    keras==2.12.0
