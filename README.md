@@ -37,25 +37,26 @@ Running efficiently on resource-constrained devices like Raspberry Pi.
 Aiming to reduce energy waste and improve sustainability.
 
 # ⚙️ Algorithm Flow
-Start
- ├── Data Collection
- │   ├── Load historical energy consumption
- │   └── (Optional) Weather data integration
- ├── Data Preprocessing
- │   ├── Clean missing/outlier values
- │   ├── Normalize with Min-Max Scaling
- │   └── Sequence data formatting
- ├── Model Training
- │   ├── LSTM model initialization
- │   ├── Train/test split
- │   └── Training with Adam optimizer
- ├── Model Evaluation
- │   └── RMSE, MAE, loss curve monitoring
- ├── Forecasting
- │   └── Predict future energy load
- └── Visualization
+    Start
+    ├── Data Collection
+    │   ├── Load historical energy consumption
+    │   └── (Optional) Weather data integration
+    ├── Data Preprocessing
+    │   ├── Clean missing/outlier values
+    │   ├── Normalize with Min-Max Scaling
+    │   └── Sequence data formatting
+    ├── Model Training
+    │   ├── LSTM model initialization
+    │   ├── Train/test split
+    │   └── Training with Adam optimizer
+    ├── Model Evaluation
+    │   └── RMSE, MAE, loss curve monitoring
+    ├── Forecasting
+    │   └── Predict future energy load
+    └── Visualization
      └── Actual vs. Predicted graph
-End
+     End
+
 
 
 # 🛠 Implementation Details
@@ -107,16 +108,16 @@ Prediction Error Histogram
 Smart Home Forecaster enables intelligent energy usage decisions through accurate forecasting. It proves LSTM viability on edge devices like SBCs.
 
 # 🔮 Future Enhancements
-    Smart Grid Integration
-    Multi-sensor energy data input
-    Real-time autonomous decision-making
-    Edge AI optimization
-    Privacy-preserving forecasting
+   - Smart Grid Integration
+   - Multi-sensor energy data input
+   -  Real-time autonomous decision-making
+   -  Edge AI optimization
+   -  Privacy-preserving forecasting
 
 # 🧪 Installation and Usage
 # ✅ Prerequisites
-     Python 3.x
-     Install dependencies: pip install -r requirements.txt
+   - Python 3.x
+   - Install dependencies: pip install -r requirements.txt
 
 
 # ▶️ Running the Project
@@ -138,8 +139,8 @@ Smart Home Forecaster enables intelligent energy usage decisions through accurat
 
 
 # 📄 License
-    This project is licensed under the MIT License.
+   This project is licensed under the MIT License.
 
 # 📚 References
-    Brownlee, Jason. Long Short-Term Memory Networks with Python
-    Machine Learning Mastery – LSTM Time Series Forecasting
+   Brownlee, Jason. Long Short-Term Memory Networks with Python
+   Machine Learning Mastery – LSTM Time Series Forecasting
